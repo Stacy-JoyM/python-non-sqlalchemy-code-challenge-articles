@@ -1,0 +1,17 @@
+Input = Integer 
+Output = "This is odd number" OR "This is even number"
+
+Take the input and check:
+If input % 2 == 0 then even
+Else input is odd
+EndIf
+
+
+START
+  READ num
+    IF num modulus 2 == 0
+   PRINT "This is an even number"
+  ELSE 
+    PRINT "This is an odd number"
+  END IF 
+END
